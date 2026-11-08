@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <a href="./index.html">Home</a>
+  </nav>
+  <br><br>
+  <form>
+    <section>
+          <label for="1">1. Who's your favorite Hobbit?</label>
+          <br>
+          <input type="text" name="1" id="1">
+        </section>
+        <br><br>
+    <section>
+          <label for="amount">2. How many bites of lembas bread is enough to fill the stomach of a grown man?</label>
+          <br>
+          <input type="number" name="2" id="2">
+        </section>
+        <br><br>
+    <section>
+          <label for="3">3. Where do you land on this scale?</label>
+          <br>
+          <span>Smeagol</span>
+          <input type="range" name="3" id="3" value="3" min="1" max="5">
+          <span>Gollum</span>
+        </section>
+        <br><br>
+    <section>
+          <span>4. Who's NOT in the picture?</span>
+          <br>
+          <input type="checkbox" name="4" id="faramir" value="faramir">
+          <label for="faramir">Faramir</label>
+          <input type="checkbox" name="4" id="legolas" value="legolas">
+          <label for="legolas">Legolas</label>
+          <input type="checkbox" name="4" id="aragorn" value="aragorn">
+          <label for="aragorn">Aragorn</label>
+          <br>
+          <div>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Fellowship.JPG/500px-Fellowship.JPG" alt="The Fellowship of the Ring">
+  <p class="caption">The fellowship of the Ring, December 18, 3018 of the Third Age during the Council of Elrond in Rivendell.</p>
+</div>
+            </div>
+        </section>
+        <br><br>
+    <section>
+          <span>5. Does one simply walk into Mordor?</span>
+          <br>
+          <input type="radio" name="5" id="51" value="5">
+          <label for="yes">Yes</label>
+          <input type="radio" name="5" id="52" value="5">
+          <label for="no">No</label>
+        </section>
+        <br><br>
+    <section>
+          <label for="6">6. Who would you save?</label>
+          <select name="6" id="6">
+            <option value="-">-</option>
+            <option value="theoden">Théoden</option>
+            <option value="saruman">Saruman</option>
+            <option value="boromir">Boromir</option>
+          </select>
+        </section>
+        <br><br>  
+    <section>
+          <label for="7">7. Who would you NOT save?</label>
+          <input list="7s" id="7" name="7">
+          <datalist id="7s">
+            <option value="Pippin"></option>
+          </datalist>
+        </section>
+        <br><br>
+    <section>
+          <label for="extra">8. Anything else you want to add?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+    <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+  </form>
+</body>
+</html>
